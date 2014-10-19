@@ -167,9 +167,9 @@
   #define PID_dT ((OVERSAMPLENR * 10.0)/(F_CPU / 64.0 / 256.0)) //sampling period of the temperature routine
 
 // Ditto MendelMax Hotend PID taken from auto PID
-    #define  DEFAULT_Kp 13.03
-    #define  DEFAULT_Ki 1.07
-    #define  DEFAULT_Kd 39.76
+    #define  DEFAULT_Kp 13.18
+    #define  DEFAULT_Ki 1.05
+    #define  DEFAULT_Kd 41.31
 
 #endif // PIDTEMP
 
